@@ -1,0 +1,28 @@
+{
+    "name": "joetannenbaum/antlers-stack",
+    "description": "Provides push, prepend, and stack tags to Antlers templates",
+    "autoload": {
+        "psr-4": {
+            "JoeTannenbaum\\Stack\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Joe Tannenbaum"
+        }
+    ],
+    "support": {
+        "email": "statamic@joe.codes"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Antlers Stack Tags",
+            "description": "Provides push, prepend, and stack tags to Antlers templates"
+        },
+        "laravel": {
+            "providers": [
+                "JoeTannenbaum\\Stack\\ServiceProvider"
+            ]
+        }
+    }
+}
