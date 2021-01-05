@@ -1,5 +1,5 @@
 {
-    "name": "joetannenbaum/antlers-stack",
+    "name": "joetannenbaum/antlers-stack-tags",
     "description": "Provides push, prepend, and stack tags to Antlers templates",
     "autoload": {
         "psr-4": {
