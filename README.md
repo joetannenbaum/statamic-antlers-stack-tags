@@ -6,10 +6,7 @@ Push a script onto the `scripts` stack:
 
 ```html
 {{ push:scripts }}
-<script
-    src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-    defer
-></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 {{ /push:scripts }}
 ```
 
@@ -17,10 +14,7 @@ Prepend a script onto the `scripts` stack:
 
 ```html
 {{ prepend:scripts }}
-<script
-    src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-    defer
-></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 {{ /prepend:scripts }}
 ```
 
@@ -28,10 +22,7 @@ Push a script onto the `scripts` stack, but only do it once (similar to [Blade o
 
 ```html
 {{ push:scripts once="true }}
-<script
-    src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"
-    defer
-></script>
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js"></script>
 {{ /push:scripts }}
 ```
 
